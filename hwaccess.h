@@ -287,6 +287,10 @@ int libpayload_wrmsr(int addr, msr_t msr);
 
 /* PCI port I/O is not yet implemented on SPARC. */
 
+#elif IS_RISCV
+
+/* PCI port I/O is not yet implemented on RISC-V. */
+
 #elif IS_ARM
 
 /* Non memory mapped I/O is not supported on ARM. */
